@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Jquery form</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+  <script src="js/form-validation.js"></script>
+
+  <div class="container">
+    <h2>Registration</h2>
+    <form action="" name="registration" id="registration">
+
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" placeholder="John"/>
+
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname" placeholder="Doe"/>
+
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="john@doe.com"/>
+
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+
+      <button type="submit">Register</button>
+
+    </form>
+  </div>
+  <div id="error_message"><span></span></div>
+
+
+</body>
+</html>
